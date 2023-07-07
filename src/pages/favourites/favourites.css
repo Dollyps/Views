@@ -1,0 +1,30 @@
+.favourite_herodection{
+    height: 35vh;
+    background-image: url('../../images/pexels-leah-kelley-3935702.jpg');
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.favourite_herodection-txt{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Averia Libre";
+    text-align: center;
+    color: white;
+}
+
+.favourite-no-img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 40px auto;
+}
+
+.favourite-text{
+    text-align: center;
+    font-weight: 600;
+    font-size: 23px;
+}

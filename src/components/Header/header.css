@@ -1,0 +1,346 @@
+.header-div{
+    /* border: 1px solid red; */
+    position: sticky;
+    /* border-bottom: 1px solid lightgray; */
+    top: 0;
+    left: 0;
+    z-index: 20;
+    background-color: white;
+    padding: 12px 40px 12px 40px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-div-logo{
+    text-decoration: none;
+    font-family: "Averia Libre";
+    color: #333;
+    font-size: 35px;
+}
+
+.header-div-right{
+    display: flex;
+    align-items: center;
+}
+
+.header-div-right-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "poppins";
+    text-decoration: none;
+    color: #767575;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+.header-div-right-link:hover{
+    color: #333;
+}
+
+.header-div-right-link:not(:last-child){
+    margin-right: 60px;
+}
+
+.header-div-right-link-ic{
+    width: 18px;
+    margin-bottom: 6px;
+    height: 18px;
+    color: currentColor;
+}
+
+.headerBackdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+.LoginDiv{
+    position: fixed;
+    width: 30%;
+    /* height: 70vh; */
+    background-color: white;
+    z-index: 17;
+    top: 50%;
+    left: 50%;
+    border-radius: 7px;
+    padding:30px;
+    transform: translate(-50%, -50%);
+}
+
+.LoginDiv-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.LoginDiv-top-ic{
+    cursor: pointer;
+}
+
+.noAccount{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid gray;
+    padding-top: 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+.ProfileDiv{
+    position: fixed;
+    width: 30%;
+    height: 70vh;
+    background-color: white;
+    z-index: 17;
+    top: 50%;
+    left: 50%;
+    border-radius: 7px;
+    /* padding:30px; */
+    transform: translate(-50%, -50%);
+}
+
+.ProfileDiv-top{
+    /* height: 40px; */
+    /* border: 1px solid red; */
+    color: white;
+    display: flex;
+    padding: 20px;
+    background-color:rgba(64, 124, 255, 0.806);
+    justify-content: space-between;
+}
+
+.ProfileDiv-top-left{
+    display: flex;
+    align-items: center;
+}
+
+.ProfileDiv-top-left-ic{
+    width: 40px;
+    height: 40px;
+    color: black;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.ProfileDiv-top-left-me-top{
+    font-weight: 600;
+}
+
+.ProfileDiv-top-left-me-btm{
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: -4px;
+}
+
+.loading_dots{
+    /* border: 1px solid red; */
+    margin: 30px auto;
+    margin-top: 20vh;
+    width: 120px;
+    height: 120px;
+}
+
+
+.btn_dots{
+    /* margin: 30px auto; */
+    /* margin-top: 20vh; */
+    width: 20px;
+    height: 20px;
+}
+
+.ProfileDiv-link{
+    display: flex;
+    text-decoration: none;
+    color: #333;
+    align-items: center;
+    transition: all .5s;
+    padding: 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.ProfileDiv-link-ic{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.ProfileDiv-link:hover,
+.ProfileDiv-link:focus{
+    background-color: gray;
+    color: white;
+}
+
+.ProfileDiv-link:last-child{
+    border-bottom: 0px solid lightblue;
+}
+
+.ProfileDiv-main-top{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    color: #333;
+    border-bottom: 1px solid lightgray;
+    font-weight: 500;
+}
+
+.ProfileDiv-main-top{
+    font-size: 18px;
+}
+
+.ProfileDiv-main-top-ic{
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.notificationImg{
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 60px auto;
+    margin-bottom: 15px;
+}
+
+.help_center_main{
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+
+.help_center_main-top{
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.help_center_main-btm{
+    font-weight: 400;
+    font-size:13px ;
+}
+
+
+.header-btm{
+    /* border: 1px solid red; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    display: none;
+    /* display: none; */
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+
+
+@media screen and (max-width: 1239px ) {
+    .ProfileDiv{
+        position: fixed;
+        width: 60%;
+        height: 70vh;
+        background-color: white;
+        z-index: 17;
+        top: 50%;
+        left: 50%;
+        border-radius: 7px;
+        /* padding:30px; */
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .header-div{
+        padding:12px;
+    }
+
+    .header-div-logo{
+        font-size: 25px;
+    }
+
+    .header-div-right-link{
+        font-size: 10px;
+    }
+    
+    
+    .header-div-right-link:not(:last-child){
+        margin-right: 30px;
+    }
+    
+    .header-div-right-link-ic{
+        width: 13px;
+        margin-bottom: 6px;
+        height: 13px;
+        color: currentColor;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .header-div{
+        padding:12px;
+    }
+
+    .header-div-logo{
+        font-size: 25px;
+    }
+
+    .header-div-right-link div{
+       display: none;
+    }
+
+    .header-div-right-link-ic{
+        width: 21px;
+        margin-bottom: 0px;
+        height: 21px;
+    }
+
+    .ProfileDiv{
+        width: 90%;
+        height: 70vh;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .header-div{
+        padding:12px;
+        justify-content: center;
+    }
+
+    .header-div-logo{
+        font-size: 25px;
+    }
+
+    .header-div-right{
+       display: none;
+    }
+
+    .header-btm{
+        display: flex;
+    }
+
+    .ProfileDiv{
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+
+}
+
+

@@ -1,0 +1,15 @@
+.footer{
+    /* border: 1px solid red; */
+    height: 70px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.footer-left{
+    margin-right: 20px;
+    font-family: "Averia Libre";
+    font-size: 22px;
+}

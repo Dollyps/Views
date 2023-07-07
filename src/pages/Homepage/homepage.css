@@ -1,0 +1,258 @@
+.homepageSearch{
+    height: 60vh;
+    /* border: 1px solid red; */
+    background-image: url("../../images/pexels-jaime-reimer-2662116.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepageSearch-main{
+    background-color: white;
+    width: 50%;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homepageSearch-main-input{
+    background-color: transparent;
+    border: none;
+    display: block;
+    /* border: 1px solid red; */
+    font-size: 15px;
+    width: 100%;
+}
+
+.homepageSearch-main-input:hover,
+.homepageSearch-main-input:focus{
+    outline: none;
+}
+
+.homepageSearch-main-ic{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    color: #767575;
+    transition: all .5s;
+}
+
+.homepageSearch-main-ic:hover{
+    color: #333;
+}
+
+.housingDiv{
+    padding: 30px;
+    background-color: #ececec;
+}
+
+.housingDiv-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    margin-top: 50px;
+}
+
+.housingDiv-subtitle{
+    color: #767575;
+    font-size: 14px;
+}
+
+.housingDiv-main{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.housingDiv-main-div{
+    font-family: "raleway";
+    /* font-weight: 700; */
+    width: 45%;
+    /* height: 200px; */
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.housingDiv-main-div-img{
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    height: 200px;
+    /* display: block; */
+    margin-bottom: 15   px;
+}
+
+.housingDiv-main-div-right{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.housingDiv-main-div-right-title{
+    font-weight: 600;
+}
+
+.housingDiv-main-div-right-sub{
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.housingDiv-main-div-right-link{
+    text-decoration: none;
+    margin-top: 10px;
+    background-color: green;
+    padding: 8px;
+    margin-top: 10px;
+    display: block;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+.no_result-img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+
+
+.no_result-text{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1040px) {
+    
+    .housingDiv-main-div{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .homepageSearch{
+        height: 40vh;
+    }
+
+    .homepageSearch-main{
+        width: 75%;
+        padding: 13px;
+    }
+
+
+    .homepageSearch-main-input{
+        font-size: 13px;
+    }
+    
+    .homepageSearch-main-ic{
+        width: 18px;
+        height: 18px;
+    }
+
+    .housingDiv-main-div-img{
+        width: 200px;
+        height: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .homepageSearch{
+        height: 40vh;
+    }
+
+    .homepageSearch-main{
+        width: 75%;
+        padding: 13px;
+    }
+
+
+    .homepageSearch-main-input{
+        font-size: 13px;
+    }
+    
+    .homepageSearch-main-ic{
+        width: 18px;
+        height: 18px;
+    }
+
+    .housingDiv-main-div-img{
+        width: 170px;
+        height: 100%;
+    }
+
+    .housingDiv-main-div{
+        width: 100%;
+    }
+
+    .housingDiv-title{
+        font-weight: 600;
+        font-size: 15px;
+        color: #333;
+        margin-top: 10px;
+    }
+    
+    .housingDiv-subtitle{
+        color: #767575;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 645px) {
+
+    .housingDiv-main-div-img{
+        width: 100%;
+        height: 200px;
+    }
+
+    .housingDiv-main-div{
+        flex-direction: column;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .homepageSearch{
+        height: 30vh;
+    }
+
+    .homepageSearch-main{
+        width: 90%;
+        padding: 13px;
+    }
+
+
+    .homepageSearch-main-input{
+        font-size: 13px;
+    }
+    
+    .homepageSearch-main-ic{
+        width: 18px;
+        height: 18px;
+    }
+
+}
